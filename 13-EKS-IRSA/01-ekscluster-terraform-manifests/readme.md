@@ -16,3 +16,5 @@ docker-compose -f docker-compose.yaml run --rm terraform init
 
 #List workspace
 docker-compose -f docker-compose.yaml run --rm terraform workspace list
+#create new workspace terraform
+docker-compose -f docker-compose.yaml run --rm terraform workspace new dev
